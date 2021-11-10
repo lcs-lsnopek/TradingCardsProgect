@@ -12,6 +12,7 @@
 		B22F3FBF273AD40E00EAA6D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22F3FBE273AD40E00EAA6D5 /* Preview Assets.xcassets */; };
 		B22F3FC7273AD4A500EAA6D5 /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F3FC6273AD4A500EAA6D5 /* PlayerCard.swift */; };
 		B22F3FCD273C47EE00EAA6D5 /* PlayerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F3FCC273C47EE00EAA6D5 /* PlayerCardView.swift */; };
+		B22F3FCF273C5EA700EAA6D5 /* PlayerCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F3FCE273C5EA700EAA6D5 /* PlayerCardListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B22F3FBE273AD40E00EAA6D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B22F3FC6273AD4A500EAA6D5 /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
 		B22F3FCC273C47EE00EAA6D5 /* PlayerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardView.swift; sourceTree = "<group>"; };
+		B22F3FCE273C5EA700EAA6D5 /* PlayerCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				B22F3FC6273AD4A500EAA6D5 /* PlayerCard.swift */,
 				B22F3FCC273C47EE00EAA6D5 /* PlayerCardView.swift */,
+				B22F3FCE273C5EA700EAA6D5 /* PlayerCardListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B22F3FCD273C47EE00EAA6D5 /* PlayerCardView.swift in Sources */,
+				B22F3FCF273C5EA700EAA6D5 /* PlayerCardListView.swift in Sources */,
 				B22F3FC7273AD4A500EAA6D5 /* PlayerCard.swift in Sources */,
 				B22F3FB8273AD40A00EAA6D5 /* TradingCardsProgectApp.swift in Sources */,
 			);

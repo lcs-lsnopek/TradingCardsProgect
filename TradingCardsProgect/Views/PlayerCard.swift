@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PlayerCard {
+struct PlayerCard: Identifiable {
     
     let imageName: String
     let name: String

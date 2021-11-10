@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct PlayerCardView: View {
+    
+    let player: PlayerCard
+    
     var body: some View {
         VStack{
             
             ZStack{
                 
                 Color.red
-                
-                Image("Kevin Bahl")
+                    
+                Image(player.imageName)
                     .resizable()
                     .scaledToFit()
                     .padding()
@@ -31,19 +34,19 @@ struct PlayerCardView: View {
                         Color.white
                             .padding(50)
                         VStack{
-                            Text("Name: Kevin Bahl")
+                            Text(player.name)
                                 .padding()
                             
-                            Text("Position: Defence")
+                            Text(player.position)
                                 .padding()
                             
-                            Text("Hand: Left")
+                            Text(player.hand)
                                 .padding()
                             
-                            Text("Hight: 6'6")
+                            Text(player.hight)
                                 .padding()
                             
-                            Text("Waght: 230")
+                            Text(player.wiaght)
                                 .padding()
                         }
                     }
@@ -57,6 +60,6 @@ struct PlayerCardView: View {
 
 struct PlayerCardView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerCardView()
+        PlayerCardView(player: listOfPlayers.first!)
     }
 }
