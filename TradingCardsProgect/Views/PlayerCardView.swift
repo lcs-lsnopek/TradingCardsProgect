@@ -9,7 +9,49 @@ import SwiftUI
 
 struct PlayerCardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            ZStack{
+                
+                Color.red
+                
+                Image("Kevin Bahl")
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+            }
+            
+            ZStack{
+                Color.red
+                
+                
+                VStack{
+                    
+                    ZStack{
+                        Color.white
+                            .padding(50)
+                        VStack{
+                            Text("Name: Kevin Bahl")
+                                .padding()
+                            
+                            Text("Position: Defence")
+                                .padding()
+                            
+                            Text("Hand: Left")
+                                .padding()
+                            
+                            Text("Hight: 6'6")
+                                .padding()
+                            
+                            Text("Waght: 230")
+                                .padding()
+                        }
+                    }
+                }
+                .font(.headline)
+                
+            }
+        }
     }
 }
 
