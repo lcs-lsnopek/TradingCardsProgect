@@ -13,8 +13,8 @@ struct PlayerCard {
     let name: String
     let position: String
     let hand: String
-    let hight: Double
-    let wiaght: Double
+    let hight: String
+    let wiaght: String
 
     
 }
@@ -25,8 +25,8 @@ let listOfPlayers = [
                name: "Kevin Bahl",
                position: "Defence",
                hand: "Left",
-               hight: 6.6,
-               wiaght: 230)
+               hight: "6.6",
+               wiaght: "230")
     
     ,
 
@@ -35,8 +35,8 @@ let listOfPlayers = [
                name: "Calen Addison",
                position: "Defence",
                hand: "Right",
-               hight: 5.10,
-               wiaght: 180)
+               hight: "5.10",
+               wiaght: "180")
     
     ,
 
@@ -45,8 +45,8 @@ let listOfPlayers = [
                name: "Bowen Byram",
                position: "Defence",
                hand: "Left",
-               hight: 6.1,
-               wiaght: 197)
+               hight: "6.1",
+               wiaght: "197")
     
     ,
     
@@ -54,8 +54,8 @@ let listOfPlayers = [
                name: "Jacob Bernard-Docker",
                position: "Defence",
                hand: "Right",
-               hight: 6.0,
-               wiaght: 190)
+               hight: "6.0",
+               wiaght: "190")
     
     ,
     
@@ -63,8 +63,8 @@ let listOfPlayers = [
                name: "Jamie Drysdale",
                position: "Defence",
                hand: "Right",
-               hight: 5.11,
-               wiaght: 180)
+               hight: "5.11",
+               wiaght: "180")
     
     ,
     
@@ -72,8 +72,8 @@ let listOfPlayers = [
                name: "Jared McIsaac",
                position: "Defence",
                hand: "Left",
-               hight:6.1,
-               wiaght: 191)
+               hight:"6.1",
+               wiaght: "191")
     
     ,
     
@@ -81,7 +81,7 @@ let listOfPlayers = [
                name: "Ty Smith",
                position: "Defence",
                hand: "Left",
-               hight: 5.11,
-               wiaght: 175)
+               hight: "5.11",
+               wiaght: "175")
     
 ]

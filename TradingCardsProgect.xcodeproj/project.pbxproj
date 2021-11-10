@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B22F3FB8273AD40A00EAA6D5 /* TradingCardsProgectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F3FB7273AD40A00EAA6D5 /* TradingCardsProgectApp.swift */; };
-		B22F3FBA273AD40A00EAA6D5 /* TradingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F3FB9273AD40A00EAA6D5 /* TradingCardView.swift */; };
 		B22F3FBC273AD40E00EAA6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22F3FBB273AD40E00EAA6D5 /* Assets.xcassets */; };
 		B22F3FBF273AD40E00EAA6D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22F3FBE273AD40E00EAA6D5 /* Preview Assets.xcassets */; };
 		B22F3FC7273AD4A500EAA6D5 /* TradingCardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F3FC6273AD4A500EAA6D5 /* TradingCardLayout.swift */; };
+		B22F3FCD273C47EE00EAA6D5 /* PlayerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F3FCC273C47EE00EAA6D5 /* PlayerCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B22F3FB4273AD40A00EAA6D5 /* TradingCardsProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCardsProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22F3FB7273AD40A00EAA6D5 /* TradingCardsProgectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsProgectApp.swift; sourceTree = "<group>"; };
-		B22F3FB9273AD40A00EAA6D5 /* TradingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardView.swift; sourceTree = "<group>"; };
 		B22F3FBB273AD40E00EAA6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B22F3FBE273AD40E00EAA6D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B22F3FC6273AD4A500EAA6D5 /* TradingCardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardLayout.swift; sourceTree = "<group>"; };
+		B22F3FCC273C47EE00EAA6D5 /* PlayerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		B22F3FC5273AD44300EAA6D5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B22F3FB9273AD40A00EAA6D5 /* TradingCardView.swift */,
+				B22F3FCC273C47EE00EAA6D5 /* PlayerCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,8 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22F3FCD273C47EE00EAA6D5 /* PlayerCardView.swift in Sources */,
 				B22F3FC7273AD4A500EAA6D5 /* TradingCardLayout.swift in Sources */,
-				B22F3FBA273AD40A00EAA6D5 /* TradingCardView.swift in Sources */,
 				B22F3FB8273AD40A00EAA6D5 /* TradingCardsProgectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
