@@ -24,13 +24,17 @@ struct PlayerCardListView: View {
                 })
                 
             }
-            .navigationTitle("Canadian 2020 World Jouner Defencemen Player Cards")
+            
         }
+        .navigationTitle("Canadian 2020 World Jouner Defencemen Player Cards")
     }
 }
 
 struct PlayerCardListView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerCardListView()
+        NavigationView {
+            PlayerCardListView()
+        }
+       
     }
 }

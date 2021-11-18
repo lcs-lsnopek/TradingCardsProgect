@@ -8,7 +8,8 @@
 import Foundation
 
 struct PlayerCard: Identifiable {
-    
+        
+    let id = UUID()
     let imageName: String
     let name: String
     let position: String
@@ -20,27 +21,7 @@ struct PlayerCard: Identifiable {
 }
 
 let listOfPlayers = [
-    
-    PlayerCard(imageName:"Kevin Bahl",
-               name: "Kevin Bahl",
-               position: "Defence",
-               hand: "Left",
-               hight: "6'6",
-               wiaght: "230")
-    
-    ,
 
-    
-    PlayerCard(imageName: "Calen Addison",
-               name: "Calen Addison",
-               position: "Defence",
-               hand: "Right",
-               hight: "5'10",
-               wiaght: "180")
-    
-    ,
-
-    
     PlayerCard(imageName: "Bowen Byram",
                name: "Bowen Byram",
                position: "Defence",
